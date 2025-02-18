@@ -10,12 +10,12 @@ def person_a():
     """
     # Code goes over here.
 
-    
+
     raise NotImplementedError()
 
 def person_b(df):
-    """Keeps only the data from the female students. 
-    Where the column "gender" equals "female". 
+    """Keeps only the data from the female students.
+    Where the column "gender" equals "female".
 
     Parameters:
     df (dataframe): First 5,000 rows of school_performace.csv
@@ -25,7 +25,7 @@ def person_b(df):
     """
     # Code goes over here.
 
-    raise NotImplementedError()
+    return df[df["gender"] == female]
 
 def person_c(df):
     """Calculates the mean from the column "grade"
